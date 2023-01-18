@@ -1,5 +1,16 @@
 {
-    "scripts": {
-      "cypress:open": "cypress open"
-    }
+  "name": "ProjectCypress",
+  "version": "1.0.0",
+  "description": "Testing Automa Cypress",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/e2e/Test/*.cy.js",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/Test/*.cy.js --record",
+    "cypress:edge": "cypress run --browser edge --spec cypress/e2e/Test/*.cy.js --record",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/Test/*.cy.js --record"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
+}

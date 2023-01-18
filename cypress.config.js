@@ -1,11 +1,11 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: "3dmr45",
+  projectId: "um497p",
+  reporter: 'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
-      //cy.viewport('iphone-6')
-      //cy.viewport(550, 750)
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
 });
