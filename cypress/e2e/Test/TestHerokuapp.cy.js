@@ -20,13 +20,5 @@ describe("Herokuapp Test", () => {
     cy.screenshot("ResultadoLogin");
   });
 
-  /*it("Demoblaze", () => {
-    cy.visit("https://www.demoblaze.com/index.html");
-    cy.get("#login2").click();
-    cy.get("#loginusername").type("euliceslp");
-    cy.get("#loginpassword").type("12345678");
-    cy.get(
-      "#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
-    ).click();
-  });*/
+ 
 });
