@@ -5,10 +5,10 @@
   "scripts": {
     "test": "test",
     "cypress:open": "cypress open",
-    "cypress:runDefault": "cypress run --spec cypress/e2e/Test/*.cy.js",
-    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/Test/*.cy.js --record",
-    "cypress:edge": "cypress run --browser edge --spec cypress/e2e/Test/*.cy.js --record",
-    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/Test/*.cy.js --record"
+    "cypress:runDefault": "cypress run --spec cypress/e2e/Test/*.cy.js --record --key dfc84a92-f0e1-468d-8400-6be7b9872938",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/Test/*.cy.js --record --key dfc84a92-f0e1-468d-8400-6be7b9872938",
+    "cypress:edge": "cypress run --browser edge --spec cypress/e2e/Test/*.cy.js --record --key dfc84a92-f0e1-468d-8400-6be7b9872938",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/e2e/Test/*.cy.js --record --key dfc84a92-f0e1-468d-8400-6be7b9872938"
   },
   "devDependencies": {
     "cypress-mochawesome-reporter": "^3.2.3"
