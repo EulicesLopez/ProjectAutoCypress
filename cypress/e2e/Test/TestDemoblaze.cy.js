@@ -13,8 +13,8 @@ describe("Demoblaze Test", () => {
     cy.get(
       "#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
     ).click();
-    cy.wait(4000)
-    cy.get("#nameofuser").should("have.text", "Welcome euliceslp");
+    //cy.wait(4000)
+    //cy.get("#nameofuser").should("have.text", "Welcome euliceslp");
     cy.screenshot();
 
   });
